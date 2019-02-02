@@ -2,7 +2,8 @@ import datetime
 
 class Stock():
 
-    owned = ""
+    owned = 0
+    shares = 100
 
     def __init__(self,name,price,country,ranking,size):
         self.name    = name
@@ -21,9 +22,9 @@ class Stock():
     def buy_stock(self,shares,name,price):
         #get current date and time
         now = datetime.datetime.now()
-        print("You bought {0} Shares of {1} at {2} - {3}".format(shares,name,price,str(now) ))
-       
+
         self.owned = shares
+        print("You bought {0} Shares of {1} at {2} - {3}".format(str(shares),name,price,str(now) ))
         
     def sell_stock(self,shares,name,price):
         #get current date and time
@@ -33,7 +34,7 @@ class Stock():
             print("You dont own that many shares.")
         else:
             print("You sold {0} Shares of {1} at {2} - {3}".format(shares,name,price,str(now) ))
-            print("You have {0} left".format(int(shares)-int(self.owned)))
+            print("You have {0} left".format(int(self.owned)-int(shares)))
             
 
 
