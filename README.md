@@ -10,5 +10,3 @@ StockClass
 
  UsesStockClass
   - uses that class and its methods
-
-.....
