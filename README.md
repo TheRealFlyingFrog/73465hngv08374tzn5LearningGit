@@ -1,13 +1,12 @@
-# 73465hngv08374tzn5LearningGit
-Just me getting familiar with git
+# Stock Python
 
-Your welcome to fork it, but i really wouldnt5 see why haha
-Nothing to see here
+I am using this to learn and get familiar with git
+There really is nothing interesting here to see.
 
 ## Files
 
 StockClass
- - Is just a cvlass that symbolizes a stock
+ - Is just a class that symbolizes a stock
 
  UsesStockClass
   - uses that class and its methods
