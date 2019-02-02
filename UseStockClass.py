@@ -8,7 +8,6 @@ aapl.country = "United States"
 aapl.ranking = "AAA"
 aapl.size    = "100"
 
-
 print("------------------------")
 print("      Stock Info")
 print("------------------------")
